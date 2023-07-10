@@ -11,7 +11,7 @@
 }
 
 .main-container {
-    max-width: 1440px;
+    max-width: 1024px;
     margin: auto;
 }
 
@@ -50,13 +50,13 @@ a {
 }
 
 .primary-title {
-    font-size: 36px;
+    font-size: 32px;
     color: #272727;
     text-transform: capitalize;
 }
 
 .secondary-title {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 20px;
 }
 
@@ -100,7 +100,7 @@ a {
 
 .header-area {
     background: rgba(229, 84, 115, 0.10);
-    margin-bottom: 160px;
+    margin-bottom: 120px;
 }
 
 .header-content {
@@ -108,7 +108,7 @@ a {
 }
 
 .header-content h2 {
-    font-size: 68px;
+    font-size: 56px;
     font-weight: 800;
 }
 
@@ -116,8 +116,13 @@ a {
     margin: 32px 0;
 }
 
+.header-img {
+    align-content: flex-end;
+    justify-self: self-end;
+}
+
 .header-img img {
-    bottom: 0;
+    width: 100%;
 }
 
 /* feature area style */
@@ -129,22 +134,19 @@ a {
     margin: 15px 0 40px 0;
 }
 
-/* .feature-flower {
-    height: 400px;
-} */
+
 .feature-flower-box {
     width: 30%;
-}
-
-.feature-flower {
-    width: 100%;
-    border-radius: 300px 300px 0px 0px;
-    padding: 100px 70px 0;
+    /* height: 350px; */
+    height: 300px;
+    background: red;
+    border-radius: 150px 150px 0 0;
+    padding: 50px 50px 0 50px
 }
 
 .feature-flower-box img {
-    max-width: 350px;
-    height: 350px;
+    width: 100%;
+    height: 100%;
 }
 
 #feature-flower-1 {
@@ -184,11 +186,11 @@ a {
 .hot-deal-area {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    padding: 40px 200px;
+    padding: 60px 100px;
 }
 
 .hot-deal-area .container {
-    gap: 120px;
+    gap: 100px;
 }
 
 .hot-deal-box p {
@@ -208,8 +210,15 @@ a {
     margin: 16px 0 40px;
 }
 
-.instagram-flower {
-    gap: 10px;
+.instagram-flower-box {
+    gap: 1%;
+}
+.instagram-flower{
+    width: 24%;
+}
+.instagram-flower img {
+    /* max-width: 300px; */
+    width: 100%
 }
 
 /* testimonial area style */
@@ -271,7 +280,7 @@ a {
 }
 
 .input-area input:not([type="submit"]) {
-    padding: 15px;
+    padding: 18px;
     font-size: 16px;
     width: 100%;
     color: rgba(39, 39, 39, 0.60);
@@ -292,4 +301,13 @@ a {
 
 .footer-area {
     background: #111010;
+    padding: 100px 200px;
+}
+
+.footer-area p {
+    margin: 20px 0 30px;
+}
+
+.copy-right {
+    color: rgba(255, 255, 255, 0.40);
 }
