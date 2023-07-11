@@ -101,12 +101,20 @@ a {
 .header-area {
     background: rgba(229, 84, 115, 0.10);
     margin-bottom: 120px;
+    height: 650px;
+    position: relative;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
 
 .header-content {
-    max-width: 720px;
+    width: 60%;
 }
-
 .header-content h2 {
     font-size: 56px;
     font-weight: 800;
@@ -117,12 +125,16 @@ a {
 }
 
 .header-img {
-    align-content: flex-end;
-    justify-self: self-end;
+    width: 40%;
+    /* position: relative; */
 }
 
 .header-img img {
-    width: 100%;
+    width: 420px;
+    height: 600px;
+    position: absolute;
+    bottom: 0;
+    right: 8%;
 }
 
 /* feature area style */
@@ -213,9 +225,11 @@ a {
 .instagram-flower-box {
     gap: 1%;
 }
-.instagram-flower{
+
+.instagram-flower {
     width: 24%;
 }
+
 .instagram-flower img {
     /* max-width: 300px; */
     width: 100%
